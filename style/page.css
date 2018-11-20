@@ -8,7 +8,6 @@ body{
 
 a {
 	text-decoration: none;
-	color:#00FFFF;
 }
 
 p {
@@ -30,6 +29,10 @@ img {
 }
 #header p,#header h1 {
 	color:white;
+}
+
+#header a {
+	color:#00FFFF;
 }
 
 #footer p,#footer h1 {
