@@ -50,6 +50,13 @@ img {
 	background-color: #800000;
 	border-radius: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    #aboutme {
+    	visibility: hidden;
+    }
+}
+
 #intro {
 	width:100%;
 	height:56%;
