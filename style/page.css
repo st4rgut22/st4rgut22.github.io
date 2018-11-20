@@ -1,0 +1,141 @@
+html {
+	height:100%;
+}
+body{
+	height:100%;
+	padding:15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size:18px;
+	
+}
+
+p,h3,h2,h1 {
+	color:#800000;
+	font-family:Helvetica;
+}
+
+div {
+	display:inline-block;
+	margin:5px;
+}
+img {
+	max-height: 100%;
+}
+#header p,#header h1 {
+	color:white;
+}
+
+#footer p,#footer h1 {
+	color:white;
+}
+
+#footer{
+	padding:5px;
+	width:100%;
+	height:5%;
+	background-color: #800000;
+	border-radius: 5px;
+}
+
+#header {
+	padding:5px;
+	width: 100%;
+	height:12%;
+	background-color: #800000;
+	border-radius: 5px;
+}
+#intro {
+	width:100%;
+	height:53%;
+}
+#profilepic{
+	height:100%;
+	width:40%;
+}
+#aboutme {
+	vertical-align: top;
+	height:100%;
+	width:50%;
+}
+#technology {
+	width:50%;
+}
+#technoDesc{
+	border-style: inset;
+	border-width: 1px;
+	vertical-align: top;
+	height:200px;
+	width:40%;
+	padding-left:10px;
+}
+#marker1{
+	width:30px;
+	height:5px;
+	margin-top:195px;
+	margin-left:5px;
+	position:absolute;
+}
+#marker2{
+	width:30px;
+	height:5px;
+	margin-top:195px;
+	margin-left:40px;
+	position:absolute;
+}
+
+#marker3{
+	width:30px;
+	height:5px;
+	margin-top:195px;
+	margin-left:80px;
+	position:absolute;
+}
+
+#colorKey{
+	width:100%;
+}
+#projDesc {
+
+}
+#investMedia {
+	width:100%;
+}
+#steeleMedia {
+	width:50%;
+}
+#towerMedia {
+	width:40%;
+}
+#tower {
+	width:50%;
+	vertical-align: top;
+}
+#steele {
+	width:30%;
+	vertical-align: top;
+}
+.subtopic {
+	background-color:#800000;
+	color:white;
+	padding:5px;
+	border-radius: 5px;
+}
+.project {
+	width:100%;
+}
+.job {
+	width:30%;
+	text-align: center;
+} 
+button.skill{
+	padding:5px;
+	margin-left: 10px;
+	margin-right:10px;
+	border-radius: 5px;
+}
