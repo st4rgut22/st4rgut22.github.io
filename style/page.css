@@ -59,6 +59,9 @@ img {
     #aboutme {
     	visibility: hidden;
     }
+    #header a {
+	visibility:hidden;
+    }
 }
 
 #intro {
