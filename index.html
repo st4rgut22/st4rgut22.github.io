@@ -3,109 +3,42 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style/page.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			$(".skill").click(function(){
-				var desc = $(this).attr('value');
-				$("#info").remove();
-				$("#technoDesc").prepend('<p id="info" style="position:absolute">'+desc+'</p>');
-			});
-		})
-	</script>
 </head>
 <body>
 	<div id="header">
 		<h1>Edward Cox</h1>
-		<p>ejcox24@gmail.com | 562-396-8859 | <a href="https://www.linkedin.com/in/edward-cox-5a0a47149/">LinkedIn</a>  <a href="https://github.com/st4rgut22">GitHub</a></p>
+		<p>Email: ejcox24@gmail.com | Phone: 562-396-8859 | <a href="https://www.linkedin.com/in/edward-cox-5a0a47149/">LinkedIn</a> | <a href="https://github.com/st4rgut22">GitHub</a></p>
 	</div> <!--name & contact info-->
 	<div id="intro">
 		<div id="profilepic">
 			<img src="media/me.jpg">
 		</div>
 		<div id="aboutme">
-			<h2>Who are you?</h2>
-			<p>I'm Edward, a computer science graduate student at Georgia Tech specializing in machine learning. I plan to graduate in 2020. </p>
-			<h2>How did you get into CS?</h2>
-			<p>I actually did my Bachelors in journalism before deciding creating cool projects through code was my passion. Java has been my primary programming language, but self-studying has introduced me to the infinite expanse of technologies. 
-			</p>
-			<h2>What are your career goals?</h2>
-			<p>I am interested in fields having to do with machine learning such as Natural Language Processing and Computer Vision. I could see myself training robots to hopscotch or play chess. </p>
-			<h2>What do you do for fun?</h2>
-			<p>I like the outdoors and watching professional sports. </p>
-		</div>
-	</div>
-	<h1 class="subtopic">Programming Languages</h1>
-	<div id="technology">
-		<button type="button" value="In Data Structures and Algorithms II we covered sorting algorithms, graph traversal, <br> hashing and more CS principles." class="skill" style="background-color:  #90EE90">Java</button>
-		<button type="button" value="I created an Android App called <a href='https://github.com/st4rgut22/SmarterInvesting'>Smarter Investing</a> to help amateur investors" class="skill" style="background-color: #00FFFF">Java</button>
-		<button type="button" class="skill" value="I created a demo <a href='https://github.com/st4rgut22/tshirt-app'>T-Shirt App</a> that uses RecyclerView to display merchandise"style="background-color: #00FFFF" >Java</button>
-		<button type="button" class="skill" value="I created a Salesforce-linked Android app for a real estate firm <br> to enable offline storage of real estate information" style="background-color: #FFA500">Java</button>
-		<br>
-		<button type="button" class="skill" value="I got my first taste of programming in an Intro to Computer Programming course <br> using Python. The course was a deep dive into programming <br>for non-majors at Northwestern University " style="background-color: #90EE90">Python</button>
-		<button type="button" class="skill" style="background-color: #00FFFF" value="I implemented a Flask framework for a content aggregator called <a href='https://github.com/st4rgut22/YouTubeLibrary'>YouTube Library</a>.">Python</button>
-		<br>
-		<button type="button" value="I made a <a href='https://github.com/st4rgut22/404_Vanquisher'>Chrome Extension </a>that fixes 404 errors using the WayBack Machine API. " class="skill" style="background-color: #00FFFF">JavaScript</button>
-		<button type="button" value="I wrote a <a href='https://github.com/st4rgut22/YouTube_Transcriber'>Chrome Extension</a> that uses user-submitted captions on YouTube <br> to create transcripts of videos" class="skill" style="background-color: #00FFFF">JavaScript</button>
-		<br>
-		<button type="button" value="My first Data Structures course was taught using C++" class="skill" style="background-color: #90EE90">C++</button>
-		<br>
-		<button type="button" value="I created a Unity 3D Game called <a href='https://github.com/st4rgut22/WaterTower3D'>WaterTower</a>. This strategy game is shown below." class="skill" style="background-color: #00FFFF">C#</button>
-		<br>
-		<button type="button" class="skill" value="I used mysql client to manage database through the Flask framework. <br>I managed thousands of records for the <a href='https://github.com/st4rgut22/YouTubeLibrary'>YouTube Library</a> Project" style="background-color: #00FFFF">MySQL</button>
-		<br>
-		<br>
-		Software/Libraries: 
-		<button>Unity</button>
-		<button>Android Studio</button>
-		<button>Unity</button>
-		<button>Selenium</button>
-		<button>Amazon AWS</button>
-	</div>
-	<div id="technoDesc">
-		<p id="info" style="position:absolute">Click on a button to learn more about Projects, Classes and Work</p>
-		<div id="marker1" style="background-color: blue"></div>
-		<div id="marker2" style="background-color: green"></div>
-		<div id="marker3" style="background-color: red"></div>
-	</div>
-			
-	<div id="colorKey">
-			<button style="background-color: #90EE90">Education</button>
-			<button style="background-color: #00FFFF">Project</button>
-			<button style="background-color: #FFA500">Work</button>
-	</div>
-	<h1 class="subtopic">Projects</h1>
-	<div class="project">
-		<h2>Smarter Investing Android App</h2>
-		<div id="invest">
-			<p>I created an Android App that generates quizzes on stocks using Wikipedia's API. It uses the SQLite database engine to store user performance on quizzes and query data. It also displays stock charts showing real-time data using AlphaAdvantage API. You can download the game on <a href='https://play.google.com/store/apps/details?id=com.iscool.edward.stockmarkettwitter'>Google Play</a>.</p>
-		</div>
-		<div id="investMedia">
-			<img src="media/invest_project/invest2.png">
-			<img src="media/invest_project/invest3.png">
-			<img src="media/invest_project/invest4.png">
-			<img src="media/invest_project/invest6.png">
-			<img src="media/invest_project/invest7.png">
-		</div>
-	</div>
-	<div class="project">
-		<h2>Water Tower Escape</h2>
-		<div id="tower">
-			<p>This Unity 3D strategy game written in C# features 10 levels. The player must make it out of the tower without being beaten to death or drowning in lava. The center character (you) has minions to help build his tower. Each minion is a unique individual with personality traits that make them disposed to fight or farm. Reward followers with positive traits and they will work harder for you. Clicking on their square will elevate their towers and save them from rising water levels. Play <a href='http://ec2-18-220-1-209.us-east-2.compute.amazonaws.com/'>here</a></p>
-		</div>
-		<div id="towerMedia">
-			<img src="media/tower_project/tower.png">
+			<p>Hi! I'm Edward Cox, a computer science graduate student at the Georgia Institute of Technology specializing in machine learning. I am looking for a software engineering internship during the summer or school year. My programming experience includes building web apps using Amazon Web Services and creating mobile apps such as <a href="https://play.google.com/store/apps/details?id=com.stargutsymphony.trainbaronv2">this</a> train game made using the Unity game engine. I'm a fun loving person though my stern and concentrated face in front of the computer would never give you the clue. Whenever I'm outdoors you'll probably find me hiking or playing pickup basketball. </p>
 		</div>
 	</div>
 
+	<h1 class="subtopic">Projects</h1>
+	<div class="project">
+		<h2>Train Baron</h2>
+		<div id="tower">
+			<p>This strategy game made with the Unity game engine features retro graphics and limitless levels that get progressively harder. The goal of the game is to complete train routes under deadline. While creating this game, organizing the layout and accounting for changing game tiles was definitely a challenge. I had to create distinct arrays for distinct game objects such as train tracks and industry pieces. I learned a lot about Unity's API and creating maintainable and reusable code through this project. It has been <a href="https://play.google.com/store/apps/details?id=com.stargutsymphony.trainbaronv2">published</a> on the Google Play Store.</p>
+		</div>
+		<div id="towerMedia">
+			<img src="media/train/train1.png">
+		</div>
+	</div>
+<hr>
 	<div class="project">
 		<h2>Salesforce Real Estate Listings App</h2>
 		<div id="steeleMedia">
 			<img src="media/steele_project/steele1.png">
 			<img src="media/steele_project/steele3.png">
-			<img src="media/steele_project/steele4.png">
 		</div>
 		<div id="steele">
-			<p>I created an Android app that enables offline storage and retrieval of real estate listings using Salesforce API. The Salesforce app includes user authentication. Whenever it is in an area with network connectivity it will update the database stored on the phone. </p>
+			<p>I created an Android app that enables offline storage and retrieval of real estate listings using Salesforce Mobile SDK. The Salesforce SDK is very handy because it takes care of user authentication, which allowed me to concentrate on improving user experience. I did run into some challenges, however, such as implementing remote connectivity. I used SmartStore from the SDK, which allowed offline synchronization between my device's local storage and the Salesforce database. </p>
+
+			<p>Ultimately I was able to roll out an app that Steele Consulting's CEO could use to look up real estate listings in the field regardless of whether he had internet connection or not. The app also reduces the lengthy process of loggingin in via the Salesforce account and navigating to the listings section.  </p>
 		</div>
 	</div>
 
