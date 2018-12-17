@@ -6,17 +6,18 @@ body{
 	padding:15px;
 }
 
-a {
+#header a {
 	text-decoration: none;
+	color:white;
 }
 
 p {
-	font-size:18px;
+	font-size:20px;
 	
 }
 
 p,h3,h2,h1 {
-	color:#800000;
+
 	font-family:Helvetica;
 }
 
@@ -26,13 +27,10 @@ div {
 }
 img {
 	max-height: 100%;
+
 }
 #header p,#header h1 {
 	color:white;
-}
-
-#header a {
-	color:#00FFFF;
 }
 
 #footer p,#footer h1 {
@@ -43,39 +41,34 @@ img {
 	padding:5px;
 	width:100%;
 	height:5%;
-	background-color: #800000;
 	border-radius: 5px;
+	background-color: black
 }
 
 #header {
 	padding:5px;
 	width: 100%;
 	height:12%;
-	background-color: #800000;
+	background-color: black;
 	border-radius: 5px;
 }
-
+#intro {
+	width:100%;
+	height:50%;
+}
+#profilepic{
+	height:70%;
+}
 @media only screen and (max-width: 600px) {
     #aboutme {
     	visibility: hidden;
     }
-    #header a {
-	visibility:hidden;
-    }
 }
 
-#intro {
-	width:100%;
-	height:56%;
-}
-#profilepic{
-	height:100%;
-	width:40%;
-}
 #aboutme {
 	vertical-align: top;
 	height:100%;
-	width:50%;
+	width:70%;
 }
 #technology {
 	width:50%;
@@ -85,7 +78,7 @@ img {
 	border-width: 1px;
 	vertical-align: top;
 	height:200px;
-	width:47%;
+	width:40%;
 	padding-left:10px;
 }
 #marker1{
@@ -121,7 +114,7 @@ img {
 	width:100%;
 }
 #steeleMedia {
-	width:60%;
+	width:40%;
 }
 #towerMedia {
 	width:40%;
@@ -131,11 +124,11 @@ img {
 	vertical-align: top;
 }
 #steele {
-	width:30%;
+	width:50%;
 	vertical-align: top;
 }
 .subtopic {
-	background-color:#800000;
+	background-color:black;
 	color:white;
 	padding:5px;
 	border-radius: 5px;
