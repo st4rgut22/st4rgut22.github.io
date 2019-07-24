@@ -6,6 +6,10 @@ body{
 	padding:15px;
 }
 
+#header{
+	background-image: url("/media/banner.jpg");
+}
+
 #header a {
 	text-decoration: none;
 	color:white;
